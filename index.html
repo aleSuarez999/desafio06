@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Ejercicio - Comparación de nombres</h1>
+        <main class="main">
+
+            <div class="main__form">
+                <h2>Primer Integrante</h2>
+                <form id="form1"  onsubmit="handleSubmit(event, 0)">
+                    <label for="p0_firstName">Primer Nombre: </label>
+                    <input id="p0_firstName" type="text" name="p0_firstName">
+                    <span class="p0_firstName_error"></span>
+                    <label for="p0_secondName">Segundo Nombre: </label>
+                    <input id="p0_secondName" type="text" name="p0_secondName">
+                    <label for="p0_firstSurname">Primer Apellido: </label>
+                    <input id="p0_firstSurname" type="text" name="p0_firstSurname">
+                    <label for="p0_secondSurname">Segundo Apellido: </label>
+                    <input id="p0_secondSurname" type="text" name="p0_secondSurname">
+                    <button type="submit" id="p0_submitButton">Completar</button>
+                </form>
+                
+                <h2>Segundo integrante</h2>
+                <form id="form2"  onsubmit="handleSubmit(event, 1)">
+                    <label for="p1_firstName">Primer Nombre: </label>
+                    <input id="p1_firstName" type="text" name="p1_firstName">
+                    <label for="p1_secondName">Segundo Nombre: </label>
+                    <input id="p1_secondName" type="text" name="p1_secondName">
+                    <label for="p1_firstSurname">Primer Apellido: </label>
+                    <input id="p1_firstSurname" type="text" name="p1_firstSurname">
+                    <label for="p1_secondSurname">Segundo Apellido: </label>
+                    <input id="p1_secondSurname" type="text" name="p1_secondSurname">
+                    <button type="submit" id="p1_submitButton" >Completar</button>
+                </form>
+
+            </div>
+ 
+            <div class="main__dl">
+                <!-- PUNTO 2 -->
+       
+                       <h3>Primer integrante</h3>
+                       <dl>
+                           <dt>Primer Nombre:</dt>
+                           <dd class="firstName" id="firstName0"></dd>
+                           <dt>Segundo Nombre:</dt>
+                           <dd class="secondName" id="secondName0"></dd>
+                           <dt>Primer Apellido;</dt>
+                           <dd class="firstSurname" id="firstSurname0"></dd>
+                           <dt>Segundo Apellido:</dt>
+                           <dd class="secondSurname" id="secondSurname0"></dd>
+                       </dl>
+                       <h3>Segundo integrante</h3>
+                       <dl>
+                           <dt>Primer Nombre:</dt>
+                           <dd class="firstName" id="firstName1"></dd>
+                           <dt>Segundo Nombre:</dt>
+                           <dd class="secondName" id="secondName1"></dd>
+                           <dt>Primer Apellido:</dt>
+                           <dd class="firstSurname"  id="firstSurname1"></dd>
+                           <dt>Segundo Apellido:</dt>
+                           <dd class="secondSurname"  id="secondSurname1"></dd>
+                       </dl>
+                   </div>
+               </main>
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

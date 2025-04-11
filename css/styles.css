@@ -1,0 +1,79 @@
+h1{
+  text-align: center;
+  
+}
+
+.main{
+  display: flex;
+  justify-content:center;
+}
+
+.main__form{
+
+  width: 200px;
+  text-align: left;
+  padding: 1rem;
+  border: 1px dashed blue;
+  background-color: hsl(200, 10%, 95%);
+  border-radius: 15px;
+  
+}
+
+input {
+  padding: .5rem 1rem;
+  border: 0;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+}
+input:focus {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid red;*/
+}
+
+input:active{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid red;
+}
+
+
+h3{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+.main__dl {
+    
+  width: 300px;
+  padding: 2px;
+  border: 1px dashed blue;
+  background-color: hsl(200, 10%, 95%);
+  border-radius: 10px;
+  
+}
+
+dl {
+    
+    margin: auto;
+    /*border-bottom: 2px solid black;*/
+    width: 60%;
+
+  }
+
+  dt{
+    
+/*    border-top: 1px solid blue;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    
+  }
+  
+  dd{
+    
+    height: 1.2rem;
+    padding: 10px;
+    
+  }
