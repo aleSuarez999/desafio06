@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 coincidencias.appendChild(strong);
             }
         }      
-    } se recorren los valores de integrante y se verifica que tengan coincidencias. si las tienen, se escribe ne el html el nombre adentro de una etiqueta strong, y se modifica el atributo color en el css de strong introduciendo color ingresado por el usuario
+    } //se recorren los valores de integrante y se verifica que tengan coincidencias. si las tienen, se escribe ne el html el nombre adentro de una etiqueta strong, y se modifica el atributo color en el css de strong introduciendo color ingresado por el usuario
 
     function pedirColor(){
         const regEx = /^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$/; // expresión regular de color en número hexadecimal
